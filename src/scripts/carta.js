@@ -40,7 +40,7 @@ export const carta = {
                 </div>
                 <div class="carta"> <!-- informació de la pizza -->
                     <div class="pizza-text">
-                        <h4 class="namepizza"></h4>
+                        <h4 class="namepizza">${pizza.name}</h4>
                         <p class="ingredient">${pizza.ingredient}</p>
                         <h3 class="price">$${pizza.price}</h3>
                     </div>
